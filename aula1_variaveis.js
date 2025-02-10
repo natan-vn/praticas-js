@@ -1,6 +1,6 @@
 // Aula 1 - Entendendo Variaveis
 
-let nome = "Natanael ";
+let nome = "Natanael" 
 let sobrenome = "vianaNogueira "; // Ao declarar variáveis em JS, é uma boa prática usar o modelo camelCase
 
 console.log("Seu nome é " + nome + sobrenome);

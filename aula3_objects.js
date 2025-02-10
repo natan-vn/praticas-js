@@ -1,4 +1,4 @@
-// OBJETOS
+// OBJETOS ---> Tipos compostos
 
 let pessoa = {
   //começamos a declarar um OBJETO a partir das chaves!!!

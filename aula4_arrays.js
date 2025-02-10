@@ -1,4 +1,4 @@
-//ARRAYS
+//ARRAYS ---> Tipos compostos
 
 let ingredientes = ["macarrão", "óleo", "sal", "molho", "carne"]; // Uma array nada mais é do que um conjunto de dados do mesmo tipo, organizados por um índice que começa em 0
 
