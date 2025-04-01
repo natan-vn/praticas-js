@@ -1,1 +1,2 @@
-Criei este repositório para colocar minhas anotações acerca do JavaScript e compartilhar meus conhecimentos com a comunidade
+# Minhas primeiras anotações
+Este repositório foi criado no objetivo de compartilhar as primeiras anotações que fiz quando comecei a estudar programação, a base serve de suma importância até para os problemas mais complexos
