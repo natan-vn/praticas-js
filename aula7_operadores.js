@@ -48,5 +48,44 @@ console.log(1 === 1); //igualdade estrita --> compara os tipos, aqui está dizen
 
 console.log(2 == 2); // igualdade solta --> ele vai comparar os valores, 2 é igual a 2, não vai se atentar à tipos
 
-//5. Ternário:
-// 
+//5. Ternário (elimina eternos ifs e elses):
+// ?, :
+//Exemplo: Queremos dizer que um cliente, a partir do momento em que tiver >100 pontos, é um cliente platinum.<100, cliente comum
+
+let pontos = 100;
+let tipo_cliente = pontos > 100 ? "platinum" : "comum"; // aqui ele vai verificar se pontos é maior que 100, se for, o cliente é platinum, senão, é comum
+
+console.log(tipo_cliente); // aqui ele vai imprimir o tipo de cliente
+
+//------------------------------------------------------------------------------------------------------------------------------
+//6. Lógicos:
+// &&, ||, !
+
+// && --> E lógico --> Só quando todas as condições são true
+// || --> OU lógico Uma das duas condições é true
+
+// ! --> NÃO lógico --> Inverte o valor lógico
+
+// Exemplo &&: Um jovem no Brasil, só pode tirar carteira de motorista, a partir dos 18 anos.
+
+let idade = 18;
+if (idade >= 18 && idade <= 70) {
+  console.log("Pode tirar carteira de motorista");
+} else {
+  console.log("Não pode tirar carteira de motorista");
+}
+// Aqui ele vai verificar se a idade é maior ou igual a 18 e menor ou igual a 70, se for, a pessoa pode tirar carteira de motorista, senão, não pode.
+
+// Exemplo ||: Para trabalhar no Brasil, a pessoa tem que ter mais de 16 anos ou ser emancipado.
+let idade2 = 16;
+let emancipado = false;
+if (idade2 >= 16 || emancipado == true) {
+  console.log("Pode trabalhar");
+}
+else {
+  console.log("Não pode trabalhar");
+}
+
+// Exemplo !: Ele inverte o valor lógico, então vamos declarar algo true e ele retorna false e vice-versa
+let verdade = true;
+console.log(!verdade) // aqui ele vai inverter o valor lógico, então ele vai imprimir false

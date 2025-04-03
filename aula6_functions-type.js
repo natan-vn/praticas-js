@@ -1,4 +1,4 @@
-//TIPOS DE VARIÁVEIS
+//TIPOS DE FUNÇÕES
 
 //↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓Realizam tarefas, sem retorno:↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
 function dizerNome() {

@@ -6,12 +6,12 @@
 let number = 10;
 console.log(number);
 
-function maisUm() {
+function somarUm() {
   // A sintaxe de uma function geralmente é verbo + substantivo
   number = 11;
 }
 
-maisUm();
+somarUm();
 console.log(number);
 
 //↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓funções com parâmetros:↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓//
