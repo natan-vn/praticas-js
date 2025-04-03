@@ -34,4 +34,19 @@ while (contador2 > 5) {
 //------------------------------------------------------------------------------------------------------------------------------
 
 //3. Atribuição:
+// =, +=, -=, *=, /=, %=
 
+let valorproduto = 100; // aqui é ATRIBUÍDO o valor 100 à variável produto, atribuição não é igualdade
+
+valorproduto += valorproduto; // incrementa o valor dele mesmo
+console.log(valorproduto);
+
+//4. Igualdade:
+// ==. ===
+
+console.log(1 === 1); //igualdade estrita --> compara os tipos, aqui está dizendo que 1number é igual a 1number
+
+console.log(2 == 2); // igualdade solta --> ele vai comparar os valores, 2 é igual a 2, não vai se atentar à tipos
+
+//5. Ternário:
+// 
